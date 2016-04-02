@@ -1,0 +1,83 @@
+baseurl = "http://yuji.im/"
+languageCode = "en-us"
+title = "Connect the Dots"
+author = "Yuji Shen"
+# Shown in the side menu
+copyright = "&copy; 2016"
+canonifyurls = true
+paginate = 7
+theme = "blackburn"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  # subtitle = "Anything But Mediocre"
+  author = "Yuji Shen"
+  brand = "YUJI<br>SHEN"
+  googleAnalytics = "UA-59613226-1"
+  disqus = "yujishen"
+  # CSS name for highlight.js
+  # highlightjs = "solarizedlight"
+  dateFormat = "2006-1-2"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 2
+    identifier = "topic"
+    url = "/topics/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 3
+    identifier = "tag"
+    url = "/tags/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  # twitter = "*"
+  # facebook = "*"
+  # googleplus = "*"
+  # weibo = "*"
+
+  # SNS photo/video sharing
+  # instagram = "*"
+  # flickr = "*"
+  # pinterest = "*"
+  # youtube = "*"
+  # vimeo = "*"
+  # vine = "*"
+  # slideshare = "*"
+
+  # SNS career oriented
+  linkedin = "yujishen"
+  # xing = "*"
+
+  # SNS news
+  # reddit = "*"
+  # hackernews = "*"
+
+  # Techie
+  github = "yujishen"
+  # bitbucket = "*"
+  # stackoverflow = "*"
