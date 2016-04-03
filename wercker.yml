@@ -18,12 +18,12 @@ deploy:
             overwrite: true
         - script:
             name: remove old files
-            code: ssh -i $PRIVATEKEY_PATH -l root -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $HOSTNAME rm -rf /var/www/yuji.im/public_html/blog/*
+            code: ssh -i $PRIVATEKEY_PATH -l root -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $HOSTNAME rm -rf /var/www/yuji.im/public_html/en/*
         - script:
             name: transfer blog
             code: |
-                scp -r -i $PRIVATEKEY_PATH public/* root@$HOSTNAME:/var/www/yuji.im/public_html/blog
-                ssh -i $PRIVATEKEY_PATH -l root -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $HOSTNAME chown -R www-data:www-data /var/www/yuji.im/public_html/
+                scp -r -i $PRIVATEKEY_PATH public/* root@$HOSTNAME:/var/www/yuji.im/public_html/en
+                # ssh -i $PRIVATEKEY_PATH -l root -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $HOSTNAME chown -R www-data:www-data /var/www/yuji.im/public_html/
         # - script:
         #     name: restart apache
         #     code: ssh -i $PRIVATEKEY_PATH -l root -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $HOSTNAME service apache reload

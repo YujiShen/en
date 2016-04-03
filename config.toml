@@ -1,6 +1,6 @@
-baseurl = "http://yuji.im/"
+baseurl = "http://yuji.im/en/"
 languageCode = "en-us"
-title = "Connect the Dots"
+title = "Yuji Shen"
 author = "Yuji Shen"
 # Shown in the side menu
 copyright = "&copy; 2016"
@@ -14,9 +14,9 @@ theme = "blackburn"
 
 [params]
   # Shown in the home page
-  # subtitle = "Anything But Mediocre"
+  subtitle = "Connecting the Dots"
   author = "Yuji Shen"
-  brand = "YUJI<br>SHEN"
+  brand = " "
   googleAnalytics = "UA-59613226-1"
   disqus = "yujishen"
   # CSS name for highlight.js
