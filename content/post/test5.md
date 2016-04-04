@@ -1,5 +1,5 @@
 +++
-date = "2016-03-14T16:11:58+05:30"
+date = "2016-10-14T16:11:58+05:30"
 title = "Testing Note"
 tags = [
     "go",
@@ -9,6 +9,13 @@ tags = [
 topics = ["Development"]
 draft = "true"
 +++
+
+> this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means
+>
+> this is a simple paragraph that is meant to be nice and easy to type which is why there will be mommas no periods or any capital letters so i guess this means
+> <cite>[Test by me][1]</cite>
+
+[1]:http://www.quotedb.com/quotes/2112
 
 This is an article that used to test style when I want to change the customized styles.
 So you do not have to pay attention to the content.
