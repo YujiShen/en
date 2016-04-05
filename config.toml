@@ -1,10 +1,11 @@
-baseurl = "http://yuji.im/en/"
+#baseurl = ""
 languageCode = "en-us"
 title = "Yuji Shen"
 author = "Yuji Shen"
 # Shown in the side menu
 copyright = "&copy; 2016"
 #canonifyurls = true
+RelativeURLs = true
 paginate = 7
 theme = "blackburn"
 
