@@ -28,25 +28,25 @@ theme = "blackburn"
   # Shown in the side menu.
   [[menu.main]]
     name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
+    pre = "<i class='icon-home'></i>"
     weight = 0
     identifier = "home"
     url = "/"
   [[menu.main]]
     name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
+    pre = "<i class='icon-list'></i>"
     weight = 1
     identifier = "post"
     url = "/post/"
   [[menu.main]]
     name = "Topics"
-    pre = "<i class='fa fa-folder fa-fw'></i>"
+    pre = "<i class='icon-folder'></i>"
     weight = 2
     identifier = "topic"
     url = "/topics/"
   [[menu.main]]
     name = "Tags"
-    pre = "<i class='fa fa-tags fa-fw'></i>"
+    pre = "<i class='icon-tags'></i>"
     weight = 3
     identifier = "tag"
     url = "/tags/"
