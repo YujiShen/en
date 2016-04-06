@@ -4,6 +4,7 @@ title = "Testing Note 3"
 draft = "true"
 +++
 
+
 Currently five cell types are supported:
 
 1. A "Text Cell" lets you edit rich-text in-place. It supports images and links too.
@@ -481,4 +482,5 @@ st->op1->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op1
 ```
+{{% latex %}}
 
