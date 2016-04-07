@@ -8,6 +8,7 @@ tags = [
 ]
 topics = ["Development"]
 draft = "true"
+notoc = true
 +++
 
 This is an article that used to test style when I want to change the customized styles.

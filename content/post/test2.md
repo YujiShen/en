@@ -8,6 +8,8 @@ tags = [
 ]
 topics = ["Test"]
 draft = "true"
+slug = "this-is-test-note-2"
+notoc = true
 +++
 
 This is an article that used to test style when I want to change the customized styles.

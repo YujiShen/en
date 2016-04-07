@@ -2,6 +2,7 @@
 date = "2016-12-14T16:11:58+05:30"
 title = "Latex Test"
 draft = "true"
+notoc = true
 +++
 
 

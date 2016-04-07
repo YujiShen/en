@@ -2,6 +2,7 @@
 date = "2016-02-14T16:11:58+05:30"
 title = "What If This Title Is Very Long? and this one will be two line"
 draft = "true"
+notoc = true
 +++
 
 ```python
