@@ -1,11 +1,11 @@
-#baseurl = ""
+baseurl = "https://yuji.im/en/"
 languageCode = "en-us"
 title = "Yuji Shen"
 author = "Yuji Shen"
 # Shown in the side menu
 copyright = "&copy; 2016"
-#canonifyurls = true
-RelativeURLs = true
+canonifyurls = true
+#RelativeURLs = true
 paginate = 7
 theme = "blackburn"
 
@@ -22,7 +22,7 @@ theme = "blackburn"
   disqus = "yujishen"
   # CSS name for highlight.js
   # highlightjs = "solarizedlight"
-  dateFormat = "2006-1-2"
+  dateFormat = "Jan 2, 2006"
 
 [menu]
   # Shown in the side menu.
@@ -50,6 +50,24 @@ theme = "blackburn"
     weight = 3
     identifier = "tag"
     url = "/tags/"
+
+[intro]
+  # Shown in the side menu.
+  [[menu.intro]]
+    name = "About"
+    pre = "<i class='icon-user'></i>"
+    weight = 0
+    url = "/about/"
+  [[menu.intro]]
+    name = "Portfolio"
+    pre = "<i class='icon-suitcase'></i>"
+    weight = 1
+    url = "/portfolio/"
+  [[menu.intro]]
+    name = "Resume"
+    pre = "<i class='icon-file'></i>"
+    weight = 2
+    url = "/resume/"
 
 [social]
   # Link your social networking accouns to the side menu
