@@ -23,6 +23,7 @@ deploy:
             name: transfer blog
             code: |
                 scp -r -i $PRIVATEKEY_PATH public/* root@$HOSTNAME:/var/www/yuji.im/public_html/en
+                ssh -i $PRIVATEKEY_PATH -l root -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $HOSTNAME find /var/www/yuji.im/public_html/en -type f -name '*.html' -execdir html-minifier --conservative-collapse --remove-comments --remove-redundant-attributes --collapse-whitespace --minify-js {} -o {} \;
                 # ssh -i $PRIVATEKEY_PATH -l root -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no $HOSTNAME chown -R www-data:www-data /var/www/yuji.im/public_html/
         # - script:
         #     name: restart apache
