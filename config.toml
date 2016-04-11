@@ -37,8 +37,8 @@ theme = "blackburn"
     name = "Archive"
     pre = "<i class='icon-box'></i>"
     weight = 1
-    identifier = "archive"
-    url = "/archive/"
+    identifier = "post"
+    url = "/post/"
   [[menu.main]]
     name = "Topics"
     pre = "<i class='icon-folder'></i>"
