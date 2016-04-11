@@ -1,6 +1,6 @@
 baseurl = "https://yuji.im/en/"
 languageCode = "en-us"
-title = "Yuji Shen"
+title = "Connecting the Dots"
 author = "Yuji Shen"
 # Shown in the side menu
 copyright = "&copy; 2016"
@@ -17,12 +17,12 @@ theme = "blackburn"
   # Shown in the home page
   subtitle = "Connecting the Dots"
   author = "Yuji Shen"
-  brand = " "
+  brand = ""
   googleAnalytics = "UA-59613226-1"
   disqus = "yujishen"
   # CSS name for highlight.js
   # highlightjs = "solarizedlight"
-  dateFormat = "Jan 2, 2006"
+  dateFormat = "01/2/2006"
 
 [menu]
   # Shown in the side menu.
@@ -34,7 +34,7 @@ theme = "blackburn"
     url = "/"
   [[menu.main]]
     name = "Posts"
-    pre = "<i class='icon-list'></i>"
+    pre = "<i class='icon-box'></i>"
     weight = 1
     identifier = "post"
     url = "/post/"

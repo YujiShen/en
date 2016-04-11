@@ -31,7 +31,6 @@ Amazon Prime项目：优于“积分”的“loyalty program"
 
 ##### 亚马逊
 作者：金六月
-链接：https://www.zhihu.com/question/20623800/answer/18295607
 来源：知乎
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
