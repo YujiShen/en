@@ -14,6 +14,7 @@ theme = "blackburn"
   topic = "topics"
 
 [params]
+  locale = "en-US"
   # Shown in the home page
   subtitle = "Connecting the Dots"
   author = "Yuji Shen"
@@ -33,11 +34,11 @@ theme = "blackburn"
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
+    name = "Archive"
     pre = "<i class='icon-box'></i>"
     weight = 1
-    identifier = "post"
-    url = "/post/"
+    identifier = "archive"
+    url = "/archive/"
   [[menu.main]]
     name = "Topics"
     pre = "<i class='icon-folder'></i>"
