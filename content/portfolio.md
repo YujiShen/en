@@ -3,7 +3,7 @@ date = "2012-08-14T16:11:58+05:30"
 title = "Portfolio"
 +++
 
-Here is some of my projects.
+Here are some of my projects.
 
 ### Personal Time Analysis Pipeline
 
