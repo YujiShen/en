@@ -1,6 +1,6 @@
 +++
+date = "2012-08-14T16:11:58+05:30"
 title = "Portfolio"
-notoc = false
 +++
 
 Here is some of my projects.
